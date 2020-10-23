@@ -21,4 +21,8 @@ export class Party {
         private differenceAmountAdjustmentType ?: DifferenceAmountAdjustmentType
     ) {
     }
+
+    charge() {
+        return 0
+    }
 }
