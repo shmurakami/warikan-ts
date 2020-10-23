@@ -18,7 +18,7 @@ export class Party {
         private name: PartyName,
         private members: Members,
         private memberPaymentTypes: MemberPaymentTypes,
-        private differenceAmountAdjustmentType: DifferenceAmountAdjustmentType|null
+        private differenceAmountAdjustmentType ?: DifferenceAmountAdjustmentType
     ) {
     }
 }
