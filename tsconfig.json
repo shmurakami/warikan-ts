@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es6",
+    "module": "es6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "experimentalDecorators": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exlude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
