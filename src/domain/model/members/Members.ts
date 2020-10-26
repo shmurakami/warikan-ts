@@ -1,8 +1,4 @@
-export class Members {
-
-    constructor(private members: Member[]) {
-    }
-}
+import {PaymentGrade} from "./PaymentGrade";
 
 export class MemberName {
 
@@ -16,17 +12,13 @@ export class MemberName {
 
 export class Member {
 
-    constructor(private name: MemberName, secretaryType: SecretaryType) {
+    constructor(private name: MemberName, private paymentGrade: PaymentGrade) {
     }
 }
 
-export class SecretaryType {
+export class Members {
 
-    constructor(private _value: any) {
-    }
-
-    get value() {
-        return this._value
+    constructor(private members: Member[]) {
     }
 }
 
